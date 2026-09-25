@@ -1,0 +1,15 @@
+name: samos-sisi
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.11.15
+  - pip
+  - pip:
+      - numpy==2.4.6
+      - pandas==3.0.3
+      - astropy==7.2.0
+      - photutils==3.0.0
+      - astroquery==0.4.11
+      - matplotlib==3.10.9
